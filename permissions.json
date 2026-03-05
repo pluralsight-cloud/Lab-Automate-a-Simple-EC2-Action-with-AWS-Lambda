@@ -1,16 +1,16 @@
 {
-	"Version": "2012-10-17",
-	"Statement": [
-		{
-			"Effect": "Allow",
-			"Action": [
-				"cloudtrail:LookupEvents",
-				"ec2:CreateTags",
-				"ec2:TerminateInstances",
-				"ec2:DescribeInstances",
-				"ec2:StopInstances"
-			],
-			"Resource": "*"
-		}
-	]
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "cloudtrail:LookupEvents",
+                "ec2:CreateTags",
+                "ec2:TerminateInstances",
+                "ec2:DescribeInstances",
+                "ec2:StopInstances"
+            ],
+            "Resource": "*"
+        }
+    ]
 }
